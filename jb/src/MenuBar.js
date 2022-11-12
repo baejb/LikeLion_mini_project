@@ -8,7 +8,7 @@ import{
 } from './styledComponent';
 import './App.css';
 import React from 'react';
-import Header from './Header';
+
 
 // import { useState } from 'react';
 
@@ -17,7 +17,8 @@ function MenuBar(){
     return(
         <>
         <HeaderDiv>
-            <Header />
+            <img className="logo" alt="logo_image" src="img/Logo.png"></img>
+            
         <MenuDiv>
             <img className="title" alt="title_image" src="img/headertitle.png"></img>
         <HeaderLine></HeaderLine>        
