@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Main from './Main';
-import Content from './Content';
+import Curriculum from './Curriculum';
 
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
 				<Header />
 				<Routes>
 					<Route path="/" element={<Main />}></Route>
-          <Route path="/curriculum" element={<Content />}></Route>
+          			<Route path="/curriculum" element={<Curriculum />}></Route>
 					
 			
 				</Routes>

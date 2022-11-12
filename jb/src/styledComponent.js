@@ -1,13 +1,13 @@
-import styled from 'styled-components';
-
+import styled, { css } from "styled-components";
+import { NavLink } from 'react-router-dom';
 
 export const MenuDiv= styled.div`
     text-align: center;
-    margin-top: 3%
+    margin-top: 2%
 `
 export const HeaderLine= styled.div`
     border-bottom: solid 3px rgba(217, 217, 217, 1);
-    margin-top: 4%
+    margin-top: 3%
 `
 
 export const HeaderDiv = styled.div`
@@ -23,6 +23,19 @@ export const Menu = styled.div`
     display: flex;
     justify-content: space-around
 `
+export const NavLinkTo = styled(NavLink)`
+    text-decoration: none;
+    font-size:24px;
+    margin-top: 2%;
+    color: white;
+    width: 180px;
+    &.active{
+        color: orange;
+        text-underline-position: under;
+        text-decoration: underline white solid 4px;
+    }
+`
+
 
 
 export const TitleBig = styled.div`
@@ -62,8 +75,9 @@ export const ImgBox1 = styled.div`
     border-radius: 20px;
     margin-top: 5%;
     display: inline-block;
-    width: 17%;
+    width: 16%;
     margin-bottom: 5%;
+    
 `
 export const ImgBox2 = styled.div`
     display:flex;
@@ -88,7 +102,7 @@ export const Imgs = styled.img`
 export const TitleImg = styled.p`
     color: black;
     text-align: center;
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 900;
     margin: 10px;
     

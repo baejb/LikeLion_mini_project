@@ -15,7 +15,7 @@ import{
 } from './styledComponent';
 import React from "react";
 
-function Content(){
+function Curriculum(){
     return (
         <>
         <MainDiv>
@@ -30,7 +30,9 @@ function Content(){
             </ImgDiv>
             <TitleImg>공통</TitleImg>
         </ImgBox>
+        
         <ImgBox2>
+        
         <ImgBox1>
             <ImgDiv>
                 <Imgs src="img/figma.png"></Imgs>
@@ -65,4 +67,4 @@ function Content(){
         </MainDiv>
         </>
     );
-}export default Content
+}export default Curriculum
