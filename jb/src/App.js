@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Header';
+import MenuBar from './MenuBar';
 import Main from './Main';
 import Curriculum from './Curriculum';
 
@@ -9,7 +9,7 @@ const App = () => {
 	return (
 		<div className='App'>
 			<BrowserRouter>
-				<Header />
+				<MenuBar />
 				<Routes>
 					<Route path="/" element={<Main />}></Route>
           			<Route path="/curriculum" element={<Curriculum />}></Route>

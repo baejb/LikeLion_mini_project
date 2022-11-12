@@ -11,7 +11,7 @@ import React from 'react';
 
 // import { useState } from 'react';
 
-function Header(){
+function MenuBar(){
    
     return(
         <>
@@ -36,4 +36,4 @@ function Header(){
         </>
     );
 };
-export default Header
+export default MenuBar
